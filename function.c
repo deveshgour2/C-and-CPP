@@ -1,0 +1,23 @@
+#include<stdio.h>
+void evenodd();
+
+ void main()
+ {
+ 	evenodd();
+ }
+ void evenodd()
+ {
+ 	int num;
+ 	printf("enter the num");
+ 	scanf("%d",&num);
+ 	{
+ 		if(num%2==0)
+ 		{
+ 			printf("even");
+		 }
+		 else
+		 {
+		 	printf("odd");
+		 }
+	 }
+ }
